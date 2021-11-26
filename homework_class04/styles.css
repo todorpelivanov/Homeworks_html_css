@@ -1,0 +1,35 @@
+.tabela {
+    width: 600px;
+    text-align: center;
+    padding: 1px;
+    margin: 35px;
+    border:3px rgb(240, 226, 226);  
+    border-style: inset;
+    outline: rgb(0, 0, 0);
+    outline-offset: 20px;
+    outline-style: outset;
+    outline-width: 5px;
+    }
+
+    .krug{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:3px solid #000;
+    margin:3px;
+    display: flex;
+    color:rgb(0, 0, 0);
+    line-height:40px;
+    font-size: 11px;
+    font-weight:900;
+    font-family: sans-serif;
+    }
+
+    td {
+    padding: 0px;
+    text-align: center;
+    border:2px solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
