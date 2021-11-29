@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homework_fb_login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sign-up-container">
+        <div>
+        <h1>Sign up</h1>
+        <h4 style="color: rgb(186, 187, 189);">It's quick and easy.</h4>
+        </div>
+        <hr class="flat-line">
+        <form>
+            <label for="fname"></label>
+            <input required placeholder="Fist name" type="text" id="fname" />
+            <label for="lname"></label>
+            <input required placeholder="Last name" type="text" id="lname" />
+            <br/>
+            <label for="email"></label>
+            <input required placeholder="Mobile number or E-mail" type="email" id="email"/>
+            <br/>
+            <label for="pass"></label>
+            <input required placeholder="New password" type="password" id="pass">
+            <br/>
+            <caption>Birthday <span class="question-mark" style="color: white;">&#63;</span></caption>
+            <br/>
+            <label for="dates"></label>
+            <select id="dates">
+                <option> Jan </option>
+                <option> Feb </option>
+                <option> Mar </option>
+                <option> Apr </option>
+                <option> May </option>
+                <option> Jun </option>
+                <option> Jul </option>
+                <option> Aug </option>
+                <option> Sep </option>
+                <option> Oct </option>
+                <option selected> Nov </option>
+                <option> Dec </option>
+            </select>
+            <label for="datesd"></label>
+            <select id="datesd">
+                <option>28</option>
+            </select>
+            <label for="datesy"></label>
+            <select id="datesy">
+                <option>2021</option>
+            </select>
+            <br/>
+            <br/>
+            <caption>Gender <span class="question-mark" style="color: white;">&#63;</span></caption>
+            <br/>
+            <div class="main-gender">
+            <div id="gender-left">
+            <label for="f">Female</label>
+            <input type="radio" id="f" name="gender">
+            </div>
+            <div id="gender-mid">
+            <label for="m">Male</label>
+            <input type="radio" id="m" name="gender">
+            </div>
+            <div id="gender-right">
+            <label for="c">Custom</label>
+            <input type="radio" id="c" name="gender">
+            </div>
+            </div>
+            <br/>
+            <p id="the-text">By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+            <input type="submit" value="Sign Up" id="button-submit">
+        </form>
+    </div>
+</body>
+
+</html>

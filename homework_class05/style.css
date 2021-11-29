@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+    background-color: rgb(252, 245, 245);
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.flat-line {
+    text-align: left;
+    margin-right: 0;
+}
+
+.gender {
+    box-sizing: border-box;
+    border: solid 3px rgb(5, 5, 5);
+    border-radius: 5px;
+    height: 50px;
+    width: 130px;
+}
+
+.sign-up-container {
+    width: 400px;
+    height: 500px;
+    border: 1px black;
+    padding: 13px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.question-mark {
+
+    background-color: grey;
+    box-sizing: border-box;
+    border: 1px white;
+    border-radius: 50%;
+}
+
+#inputs-detail {
+    width: 200px;
+    height: 100px;
+    border: 1px white;
+    margin-right: 13px;
+    margin-top: 13px;
+}
+
+#inputs-detail2 {
+    width: 300px;
+    height: 100px;
+    border: 1px white;
+    margin-right: 13px;
+    margin-top: 13px;
+}
+
+#button-submit {
+    box-sizing: border-box;
+    margin-left: 100px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#button-submit:hover {
+    box-sizing: border-box;
+    margin-left: 100px;
+	background-color: rgb(91, 236, 115);
+    color: rgb(236, 225, 225);
+    border: 0px;
+}
+
+#the-text {
+    font-size: 10px;
+}
+
+#fname {
+    height: 30px;
+    width: 170px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#lname {
+    height: 30px;
+    width: 170px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#email {
+    height: 30px;
+    width: 370px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#pass {
+    height: 30px;
+    width: 370px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#dates {
+    width: 123px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#datesd {
+    width: 133px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#datesy {
+    width: 123px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px rgb(224, 223, 223);
+}
+
+#gender-left {
+    float: left;
+    width: 28%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px rgb(224, 223, 223);
+    margin-right: 5px;
+    text-align: center;
+}
+
+#gender-mid {
+    float: left;
+    width: 37%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px rgb(224, 223, 223);
+    margin-right: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#gender-right {
+    float: left;
+    width: 28%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px rgb(224, 223, 223);
+    text-align: center;
+}
+
