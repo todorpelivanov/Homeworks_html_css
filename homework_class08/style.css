@@ -75,6 +75,11 @@
     bottom: 0px;
 }
 
+.icon-main-content1:hover {
+    width: 377px; 
+    height: 377px;
+}
+
 .main-content-text {
     font-size: 60px;
     text-align: center;
