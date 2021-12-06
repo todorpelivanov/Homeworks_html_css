@@ -52,13 +52,28 @@
     z-index: 100;
 }
 
+.search-icon {
+    display: inline;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.language-icon {
+    display: inline;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 27px;
+}
+
 .foot {
     display: block;
     width: 100%;
     border: black solid 2px;
     bottom: 0px;
 }
-
 
 .main-content-text {
     font-size: 60px;
