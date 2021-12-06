@@ -45,7 +45,7 @@
 
 .navbar {
     background-color: rgba(197, 177, 177, 0.5);
-    position: sticky;
+    position: fixed;
     top: 0px;
     width: 100%;
     color: #f2f2f2;
